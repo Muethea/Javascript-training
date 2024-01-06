@@ -6,7 +6,7 @@ var estudant = {
   }
 }
 
-console.log(estudant.data)
+console.log(estudant.toString())
 
 // var anotherPerson = new Object()
 
@@ -15,7 +15,7 @@ console.log(estudant.data)
 
 // console.log(anotherPerson)
 
-var anotherPerson = Object.create(null)
-anotherPerson.nome = 'lucas'
+// var anotherPerson = Object.create(null)
+// anotherPerson.nome = 'lucas'
 
-console.log(anotherPerson)
+  // console.log(anotherPerson)
