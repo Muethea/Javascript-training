@@ -40,4 +40,4 @@ Aprenda a lidar com eventos, como cliques do mouse e pressionamentos de tecla, p
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/Muethea/Javascript-trainin.git
+git clone https://github.com/Muethea/Javascript-training.git
