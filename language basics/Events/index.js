@@ -1,9 +1,9 @@
 var button = document.querySelector('button')
 
-// Add an event listener to the button
-// button.addEventListener('click', function () {
-//   alert('clicado')
-// })
+  // Add an event listener to the button
+  button.addEventListener('click', function () {
+    alert('clicado')
+  })
 
 
 
