@@ -1,12 +1,11 @@
-var button = document.querySelector('button')
+var inner = document.querySelector('#inner')
+var outer = document.querySelector('#outer')
 
-  // Add an event listener to the button
-  button.addEventListener('click', function () {
-    alert('clicado')
-  })
+inner.addEventListener('click', event => {
+  console.log(event.bubbles)
+  event.stopPropagation()
+})
 
-
-
-button.addEventListener('click', function () {
-  alert('clicado')
+outer.addEventListener('click', e => {
+  console.log(`X= ${e.clientX}, Y= ${e.clientY}`)
 })
