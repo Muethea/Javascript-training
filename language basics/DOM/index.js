@@ -7,6 +7,15 @@ h1.style.background = 'red'
 h1.style.padding = '13px'
 h1.style.color = '#ffff'
 
+var p = document.createElement('p')
+
+p.textContent = 'A new paragraph'
+p.style.fontSize = '17px'
+
+var a = document.querySelector('#a')
+
+a.appendChild(p)
+
 button.addEventListener('click', () => {
   const valorDigitado = inputValue.value.trim()
   if (valorDigitado === '' || valorDigitado < 4) {
