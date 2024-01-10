@@ -2,7 +2,7 @@
 
 Este repositório é destinado a ajudar iniciantes a aprender os conceitos fundamentais de programação em JavaScript, incluindo lógica, funções, tratamento de erros, debugging, manipulação do DOM e eventos.
 
-## Conteúdo
+## Conteúdos
 
 1. [Lógica de Programação](#lógica-de-programação)
 2. [Funções](#funções)
